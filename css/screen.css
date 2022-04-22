@@ -988,3 +988,26 @@ a:focus {
 c.c-link-cta--inverse:hover::after{
     background-color: #fff;
 }
+
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    list-style: none;
+    padding: 0;
+}
+
+.c-footer__nav {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.c-title-icon__icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80px;
+}
